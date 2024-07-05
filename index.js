@@ -11,7 +11,7 @@ const port = process.env.PORT || 3000;
 const username = process.env.MONGODB_USERNAME;
 const password = process.env.MONGODB_PASSWORD;
 
-mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.ksfncsa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`, {
+mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.8s0c4xu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`, {
     serverSelectionTimeoutMS: 5000, 
 });
 
